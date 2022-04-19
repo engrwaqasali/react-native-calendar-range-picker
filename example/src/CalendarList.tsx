@@ -55,7 +55,7 @@ const CalendarList = ({
       <View
         style={{
           height: LAYOUT_HEIGHT,
-          backgroundColor: "#fff",
+          backgroundColor: "transparent",
         }}
       >
         <Month
@@ -75,19 +75,6 @@ const CalendarList = ({
 
   return (
     <View style={[{ position: "relative" }, style?.container]}>
-      <View
-        style={{
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          position: "absolute",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <ActivityIndicator />
-      </View>
       <FlatList
         keyExtractor={(item: Month_Type) => item.id}
         data={months}

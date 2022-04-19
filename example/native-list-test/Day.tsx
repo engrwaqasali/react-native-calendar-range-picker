@@ -28,7 +28,7 @@ const Day = ({
   const dayTextColor = style?.dayTextColor || '#1d1c1d';
   const holidayColor = style?.holidayColor || '#f26522';
   const todayColor = style?.todayColor || '#1692e4';
-  const selectedDayTextColor = style?.selectedDayTextColor || '#fff';
+  const selectedDayTextColor = style?.selectedDayTextColor || 'black';
   const selectedDayBackgroundColor =
     style?.selectedDayBackgroundColor || '#83bc44';
   const selectedBetweenDayTextColor =

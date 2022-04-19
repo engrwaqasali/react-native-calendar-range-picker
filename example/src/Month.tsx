@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   monthContainer: {
     paddingTop: 20,
     paddingHorizontal: PADDING_HORIZONTAL,
-    backgroundColor: "#fff",
+    backgroundColor: "transparent",
   },
   monthNameContainer: {
     flexDirection: "row",
